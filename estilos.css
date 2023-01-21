@@ -1,0 +1,467 @@
+
+.header{
+    background-color: black;
+}
+.main{
+    background-color: rgb(240, 235, 235);
+    width: 100%;
+}
+.logo{
+    max-width: 120px;
+}
+.nav{
+    margin-top: 4%;
+    margin-left: 14%;
+}
+.nav-item a{
+    color:white
+}
+#pesquisa{
+    border-color: white !important;
+    border-style: double;
+}
+li:hover .active {
+    background-color:#8a8a8a!important;
+}
+#carouselExampleIndicators{
+    background-color: #c1c8cadc;
+    max-height: 400px;
+    margin-bottom: 15px;
+}
+#carouselExampleIndicators iframe{
+width: 500px;
+height: 330px;
+float: left;
+margin: 20px;
+max-width: 100%;
+}
+.lançamentos{
+    text-align: center;
+}
+.textocarrossel{
+   text-align: left;
+   padding: 20px;
+   max-width: 100%;
+}
+  .emdestaque{
+      margin-left: 50px;
+      margin-bottom: 15px;
+      width: 90%;
+  }
+  .destaque{
+      text-align: left;
+      max-width: 100%;
+  }
+  .dropdown{
+    text-align: right;
+    max-width: 100%;
+}
+  .maisfilmes{
+      text-align:right;
+      max-width: 100%;
+      margin: 10px;
+  }
+  .ultimasavaliaçoes{
+      width: 100%;
+      margin-left: 50px;
+      margin-bottom: 30px;
+  }
+  .maisavaliaçoes{
+      text-align:right;
+      max-width: 100%;
+      margin-bottom: 10px;
+  }
+  .maismaisfilmes{
+      text-align: right;
+      max-width: 100%;
+  }
+  .cards div{
+      background-color: rgb(240, 235, 235);
+      width: 100%;
+      border: 0;
+      padding-right: 0px;
+  }
+
+  .cards img{
+      width: 250px;
+      max-width: 100%;
+      border:black;
+      border-style: double;
+      border-radius: 10px;
+  }
+  .makingof{
+      width: 100%;
+      margin-left:50px ;
+      max-width: 100%;
+  }
+  .imagemperfil img{
+      width: 170%;
+      padding-right: 10px;
+
+  }
+  .imagemperfildois img{
+      max-width: 100%;
+  }
+  .imagemperfiltres img{
+      max-width: 100%;
+      height: 25%;
+  }
+  .videos{
+      margin-top: 20px;
+  }
+  .videos iframe{
+      max-width: 100%;
+      height: 250px;
+  }
+  .sobre{
+      margin-top: 10px;
+  }
+  .textovideo{   
+      font-size: 30px;
+      margin-bottom: 15px;
+  }
+  #diretor{
+      
+      font-size: 15px;
+  }
+  #filme p{
+      text-align: left;
+  }
+  #diretor p{
+      margin: 0;
+  }
+  .makingofdois{
+      background-color: #d4d4d4;
+  }
+  .cardsvideos{
+    background-color: #d4d4d4;
+  }
+  .nomedofilme{
+    background-color: #d4d4d4;
+}
+.imagens img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.icons svg{
+    width: 30px !important;
+    height: 30px;
+    margin: 10px;
+}
+.textnovidades h6{
+    font-size: 100px;
+    text-align: right;
+}
+.textonovidades h5{
+    border-top: 4px solid rgb(0, 0, 0);
+    padding-top: 30px ;
+}
+.textonovidades button{
+    border-radius: 20px;
+    background-color: #777777;
+    color: white;
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    width: 100% !important;
+}
+   
+.textfooter{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 60px;
+    max-width: 100%;
+}
+.logofooter img{
+    max-width: 100px;
+
+}
+.link{
+    color: rgb(0, 0, 0);
+}
+.link :hover{
+    color: rgba(0, 0, 0, 0.63);
+}
+@media screen and (max-width:600px){
+
+    .carousel .slide iframe{
+        width: 100%;
+    }
+
+    .carousel .slide{
+            margin: 0px;
+            width: 100%;
+        }
+        .textocarrossel{
+            text-align: left;
+            margin-bottom: 50px;
+            padding: 60px;
+         }
+        .destaque{
+            text-align: left;
+            margin-top: 600px;
+        }
+        .imagemperfil img{
+            width: 90%;
+            padding-right: 0px;
+        }
+        .imagemperfildois img{
+            max-width: 70%;
+            margin-top: 40px;
+        }
+        .imagemperfiltres img{
+            max-width: 90%;
+            height: 70%;
+            margin-top: 40px;
+            margin-bottom: -40%;
+        }
+        .avaliador{
+            margin-left: 10px;
+        }
+        .maisavaliaçoes{
+            text-align:right;
+            max-width: 100%;
+            margin-bottom:25px ;
+    }
+        .btn{
+            text-align: right;
+            max-width: 100%;
+            margin-right: 30px;
+        }
+        .cards img{
+            width: 165px;
+        }
+        .ultimasavaliaçoes h1{
+            text-align: left;
+            max-width: 100%;
+            font-size: 32px;
+        }
+        .avaliador p{
+            text-align: justify;
+        }
+        .maisavaliaçoes{
+            margin-top: 10px;
+        }
+        .videos iframe{
+            width: 90%;
+            height:200px;
+            margin:10px;
+        }
+        .nomedofilme p{
+            display: none;
+        }
+        .maismaisfilmes{
+            margin-top: -50px;
+            float: right;
+        }
+        .imagens img{
+            display: none;
+        }
+        .sobre{
+            display: none;
+        }
+        .inferior{
+            margin-bottom: 20px;
+        }
+
+        .textfooter{
+            text-align: justify;
+            margin-bottom: 25px;
+            margin-left: 20px;
+        }
+        .logofooter img{
+            display: none;
+        }
+        .footer{
+            max-width:100% ;
+        }
+
+
+        
+}
+    @media screen and (min-width:601px) and (max-width:980px){
+        body{
+            margin: 0 !important;
+            width: 100% !important;
+        }
+        header{
+            height: 60px;
+        }
+        .logo{
+            height: 60px;
+            width: 60px;
+        }
+        .lançamentos{
+            background-color: rgb(212, 212, 255);
+            margin-top: 10px;
+            text-align: center;
+    }
+        #carouselExampleIndicators{
+                background-color: #82a3b1dc;
+                margin: 10px;
+                padding: 0;
+                height: 105%;
+            }
+            .textocarrossel{
+                text-align: left;
+                margin-bottom: 0px;
+                height: 10px;
+                padding: 20px;
+                margin-left: 0px;
+                max-width: 100%;
+             }
+            .dropdown{
+                margin-top: 40px;
+             }
+            .destaque{
+                text-align: left;
+                margin-top: 50px;
+            }
+
+            .imagemperfiltres img{
+                width: 120px;
+                height: 35px;
+                margin-left: 20px;
+            }
+            .maisavaliaçoes{
+                text-align:right;
+                max-width: 100%;
+                margin: 15px;
+            }
+            .makingof{
+                margin:0;
+                width: 100%;
+                background-color: #ffffff;
+                text-align: center;
+            }
+            .imagens img{
+                margin-left: -30px;
+                margin-bottom: 100px;
+                padding-right: 20px;
+                padding-top: 55px;
+            }
+            .avaliador h3{
+                width: 100px !important;
+            }
+            .footer{
+                    background-color: rgb(0, 0, 0);
+                    width: 100%;
+                    height: 110px;
+            }
+            .nomedofilme{
+                max-width: 100%;
+            }
+            .textovideo{
+                text-align: left;
+                font-size: 18px;
+                margin-bottom: 15px;
+            }
+            .cardsvideos{
+                max-width: 100%;
+            }
+            #novidades{
+                margin-bottom: 30px;
+            }
+        }
+                    /*Menu Mobile*/
+                    #menuToggle{
+                        display: none;
+                    }
+                    .menu-icon{
+                        display: none;
+                    }
+                    @media screen and (max-width:600px){
+                        .header{
+                            position:fixed;
+                            top: 0px;
+                            width: 87%;
+                            z-index: 10;
+                            height: 60px;
+                        }
+                    }
+                        @media screen and (max-width:980px){
+                        .header{
+                            position:fixed;
+                            top: 0px;
+                            width: 100%;
+                            z-index: 10;
+                            height: 60px;
+                        }
+                        #navagacao{
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            background-color: red !important;
+                        }
+                        .menu{
+                            display: flex;
+                            position: fixed;
+                            flex-wrap: wrap;
+                            align-content: center;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 0;
+                            background: rgba(0, 0, 0, 0.918);
+                            margin: 0;
+                            overflow: hidden;
+                        }
+
+                        .menu li{
+                            display: block;
+                            width: 100%;
+                            margin-left: 0px;
+                            margin-bottom: 20px;
+                        }
+                        .menu li a{
+                            color: white;
+                            background-color: rgb(27, 27, 27);
+                            display: block;
+                            text-align: center;
+                            margin-left: -20px;
+                            width: 100%;
+                        }
+                        .menu-icon{
+                            display: block;
+                            color: white;
+                            width: 50px;
+                            height: inherit;
+                            position: absolute;
+                            top: 15px;
+                            right: 50px;
+                            z-index: 999;
+                        }
+                        #menuToggle:checked ~ label i:nth-child(2){
+                            display: block;
+                        }
+                        #menuToggle:checked ~ label i:first-child{
+                            display: none;
+                        }
+                        #menuToggle:not(checked) ~ label i:first-child{
+                            display: block;
+                        }
+                        #menuToggle:not(checked) ~ label i:nth-child(2){
+                            display: none;
+                        }
+                        #menuToggle:checked ~ ul{
+                            height: 100%;
+                        }
+                        .logo{
+                            width: 60px;
+                        }
+                        .main{
+                            margin-top: 60px;
+                            width: 100%;
+                            margin-left: 0;
+                            margin-right: 0;
+                        }
+                    }
+
+
+
+
+        
+            
